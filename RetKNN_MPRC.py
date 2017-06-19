@@ -33,7 +33,7 @@ from ParameterSetting import *
 # from TREC2005.Index_TREC2005Genomics4584 import Corpus
 from collections import Counter
 import SkipGramGenerator as sgg
-Entrez.email = "granitedewint@gmail.com"
+Entrez.email = "your@email.com"
 
 class PRC(object):
     '''This class re-rank the BM25 results using Lin and Wilbur's PRC algorithm.'''
