@@ -28,7 +28,7 @@ from org.apache.lucene.analysis.standard import StandardTokenizer, StandardFilte
 from org.apache.pylucene.analysis import PythonAnalyzer
 from org.apache.lucene.search.similarities import BM25Similarity
 
-Entrez.email = "granitedewint@gmail.com"
+Entrez.email = "your@email.com"
 
 class PorterStemmerAnalyzer(PythonAnalyzer):
     def createComponents(self, fieldName, reader):
